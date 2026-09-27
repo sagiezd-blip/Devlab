@@ -1,0 +1,10 @@
+name: Hello Pipeline
+
+on: push
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print a greeting
+        run: echo "Hello! My first pipeline is running."
